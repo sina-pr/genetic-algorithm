@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.chessboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.chess-row {
+  display: flex;
+}
+
+.chess-square {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chess-square-even {
+  background-color: #eee;
+}
+
+.chess-square-odd {
+  background-color: #adadad;
+}
+.highlight {
+  background-color: yellow;
+}
