@@ -15,11 +15,11 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 function App() {
   const [inputs, setInputs] = useState({
-    populationSize: 1000,
-    maxGeneration: 500,
+    populationSize: 500,
+    maxGeneration: 1000,
     acceptableFitness: 1,
-    crossRate: 0.08,
-    mutationRate: 0.1,
+    crossRate: 0.65,
+    mutationRate: 0.5,
     elitismRate: 0.01,
     tournamentRate: 0.1,
   });

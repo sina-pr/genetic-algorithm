@@ -38,5 +38,9 @@ code {
   background-color: #adadad;
 }
 .highlight {
-  background-color: yellow;
+  background: url('./white_queen.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: inherit;
 }
